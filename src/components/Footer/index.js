@@ -1,20 +1,7 @@
 import React from 'react'
-import {
-    FaFacebook,
-    FaInstagram,
-    FaYoutube,
-    FaTwitter,
-    FaLinkedin
-  } from 'react-icons/fa';
-  import {
-    FooterContainer,
-    FooterWrap,
-    SocialMedia,
-    SocialMediaWrap,
-    SocialLogo,
-    SocialIcons,
-    SocialIconLink
-  } from './FooterElements';
+import { FaFacebook,FaInstagram,FaYoutube,FaTwitter,FaLinkedin } from 'react-icons/fa';
+
+import {FooterContainer,FooterWrap,SocialMedia,SocialMediaWrap,SocialLogo,SocialIcons,SocialIconLink } from './FooterElements';
 
 const Footer = () => {
     return (
@@ -43,10 +30,8 @@ const Footer = () => {
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
-      </FooterWrap>
-
-            
-        </FooterContainer>
+      </FooterWrap>            
+      </FooterContainer>
     )
 }
 

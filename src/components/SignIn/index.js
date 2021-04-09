@@ -1,9 +1,12 @@
 import React from 'react'
+import './App.css';
+import Footer from './../Footer/index';
 
 const SignIn = () => {
-    return (
-        <article classNameName="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
-        <main className="pa4 black-80 center">
+  return (
+        <div>
+       <article classNameName="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+        <main className="pa4 black-80">
   <form className="measure">
     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
       <legend className="f1 fw6 ph0 mh0">Sign In</legend>
@@ -26,7 +29,8 @@ const SignIn = () => {
   </form>
 </main>
 </article>
-    );
+    </div>
+  );
 };
 
 export default SignIn;

@@ -9,9 +9,9 @@ const Sidebar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarMenu>
         <SidebarLink to='/'>Pizzas</SidebarLink>
-        <SidebarLink to='/'>Full Menu</SidebarLink>
-        <SidebarLink to='./components/SignIn'>Sign In</SidebarLink>
-        <SidebarLink to='/'>Register</SidebarLink>
+        <SidebarLink to='/'>Our Menu</SidebarLink>
+        <SidebarLink to='./SignIn'>Sign In</SidebarLink>
+        {/* <SidebarLink to='/'>Register</SidebarLink> */}
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to='/'>Order Now</SidebarRoute>
@@ -19,5 +19,5 @@ const Sidebar = ({isOpen, toggle}) => {
     </SidebarContainer>
     );
 };
-
+ 
 export default Sidebar;
