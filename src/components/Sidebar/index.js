@@ -11,7 +11,7 @@ const Sidebar = ({isOpen, toggle}) => {
         <SidebarLink to='/'>Pizzas</SidebarLink>
         <SidebarLink to='/'>Our Menu</SidebarLink>
         <SidebarLink to='./SignIn'>Sign In</SidebarLink>
-        {/* <SidebarLink to='/'>Register</SidebarLink> */}
+        <SidebarLink to='./SignIn'>Register</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to='/'>Order Now</SidebarRoute>

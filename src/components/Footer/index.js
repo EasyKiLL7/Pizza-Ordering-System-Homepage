@@ -23,7 +23,7 @@ const Footer = () => {
               <SocialIconLink href='/' target='_blank' aria-label='Twitter'>                       
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='//https://www.linkedin.com/in/amar-singh-9372731b3'
+              <SocialIconLink href='//https://www.linkedin.com/in/amarsingh371'
                target='_blank' aria-label='Linkedin' rel='noopener noreferrer'>
                 <FaLinkedin />
               </SocialIconLink>
